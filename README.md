@@ -5,6 +5,7 @@ JsonSorter : Java based json sorter. Sorts the json alphabetiacally and recursiv
 For example:
 
 Sample unsorted json:
+<pre>
 {
     "name": "Sushant", 
     "address": "pune", 
@@ -22,8 +23,10 @@ Sample unsorted json:
         ]
     }
 }
+</pre>
 
 Output sorted json:
+<pre>
 {
     "address": "pune",
     "emails": [
@@ -41,3 +44,4 @@ Output sorted json:
         ]
     }
 }
+</pre>
