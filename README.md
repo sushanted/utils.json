@@ -1,7 +1,7 @@
 # utils.json
 Contains json related utilities <br>
 
-<b><a href="https://github.com/sushanted/utils.json/blob/master/src/main/java/sr/utils/json/sort/JsonSorter.java">JsonSorter</a></b> : Java based json sorter. Sorts the json alphabetically and recursively, all the maps are sorted by their keys while lists are sorted by their inner contents' json representation.
+<b><a href="https://github.com/sushanted/utils.json/blob/master/src/main/java/sr/utils/json/sort/JsonSorter.java">JsonSorter</a></b> : Java based json sorter. Sorts the json alphabetically and recursively, all the maps are sorted by their keys while lists are sorted by their inner contents' json representation. This is very helpful utility to compare multiple jsons which are equal in content but where content order is differnt in different jsons.
 
 For example:
 
